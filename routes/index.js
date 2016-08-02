@@ -12,10 +12,10 @@ router.use(function (req, res, next) {
   next()
 })
 /* GET home page. */
-router.get('/', function (req, res) {
-  Profile.findOne({}, (err, profile) => {
+router.get('/profiles', function (req, res) {
+  Profile.find({}, (err, profile) => {
     if(err) return res.status(404).json({message: 'Profile not found'})
-    res.json(profile)
+    res.json({profile: profile})
   })
 })
 
@@ -26,12 +26,12 @@ router.get('/projects', projectsController.index)
 router.get('/projects/:id', projectsController.show)
 
 /* GET education page. */
-router.get('/education', educationsController.index)
+router.get('/educations', educationsController.index)
 
 /* GET education/:id page. */
-router.get('/education/:id', educationsController.show)
+router.get('/educations/:id', educationsController.show)
 
 /* GET work page. */
-router.get('/work', worksController.index)
+router.get('/works', worksController.index)
 
 module.exports = router

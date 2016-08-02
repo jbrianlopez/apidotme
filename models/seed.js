@@ -30,9 +30,7 @@ var data = [
         'last_name': 'Lopez',
         'email': 'jbrianlopez@gmail.com',
         'description': 'Full-stack Developer',
-        'socials': [{name: 'https://github.com/jbrianlopez'},
-                    {name: 'https://www.facebook.com/brianlopez'}],
-        'picture': '../public/images/boo.png'
+        'github': 'https://github.com/jbrianlopez'
       }
     ]
   },
@@ -42,20 +40,20 @@ var data = [
       {
         'title': 'The Simpsons Quiz',
         'description': 'A 2 player quiz based on the Simpsons',
-        'link': 'http://jbrianlopez.github.io/quiz/',
-        'skills': [{name: 'HTML'},
-                    {name: 'JQuery'},
-                    {name: 'CSS'}]
+        'link': 'http://jbrianlopez.github.io/quiz/'
+        // 'skills': [{name: 'HTML'},
+        //             {name: 'JQuery'},
+        //             {name: 'CSS'}]
       },
       {
         'title': 'MicroBlog',
         'description': 'A MicroBlog with user authentication',
-        'link': 'https://limitless-headland-46574.herokuapp.com/',
-        'skills': [{name: 'HTML'},
-                    {name: 'CSS'},
-                    {name: 'Ruby'},
-                    {name: 'Rails'},
-                    {name: 'Bootstrap'}]
+        'link': 'https://limitless-headland-46574.herokuapp.com/'
+        // 'skills': [{name: 'HTML'},
+        //             {name: 'CSS'},
+        //             {name: 'Ruby'},
+        //             {name: 'Rails'},
+        //             {name: 'Bootstrap'}]
       }
     ]
   },
@@ -64,7 +62,7 @@ var data = [
     'documents': [
       {
         'school': 'Pepperdine University',
-        'subjects': [{name: 'Bachelors in Business Administration'}]
+        'subjects': 'Bachelors in Business Administration'
       }
     ]
   },

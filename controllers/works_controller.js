@@ -9,7 +9,7 @@ function listWorks (req, res) {
     for (let i = 0; i < worksArray.length; ++i) {
       simplifiedList.push({company: worksArray[i].company, role: worksArray[i].role, duty: worksArray[i].duty})
     }
-    res.status(200).json(simplifiedList)
+    res.status(200).json({works: worksArray})
   })
 }
 function showWorks (req, res) {

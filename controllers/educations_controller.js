@@ -9,7 +9,7 @@ function listEducations (req, res) {
     for (let i = 0; i < educationsArray.length; ++i) {
       simplifiedList.push({id: educationsArray[i].school, title: educationsArray[i].subjects})
     }
-    res.status(200).json(simplifiedList)
+    res.status(200).json({educations: educationsArray})
   })
 }
 function showEducation (req, res) {
