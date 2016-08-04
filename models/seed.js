@@ -72,12 +72,12 @@ var data = [
       {
         'company': 'Vinotemp International',
         'role': 'Marketing Coordinator',
-        'duty': 'Blah blah blah.'
+        'duty': 'A dutiful hamster.'
       },
       {
         'company': 'Abandon Interactive Entertainment',
         'role': 'Marketing Manager',
-        'duty': 'blah blah blah'
+        'duty': 'A hardworking hamster.'
       }
     ]
   }
